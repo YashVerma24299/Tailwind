@@ -1,0 +1,41 @@
+Installation:
+
+1.  import tailwindcss from '@tailwindcss/vite'
+
+2.  create a file ->  
+    ----vite.config.js
+            paste these:
+                import { defineConfig } from 'vite'
+                    import tailwindcss from '@tailwindcss/vite'
+
+                    export default defineConfig({
+                    plugins: [
+                        tailwindcss(),
+                    ],
+                })
+
+    ----styles.css
+            paste these:
+                @import "tailwindcss";
+
+3.  In html,
+        <link href="/styles.css" rel="stylesheet">
+
+4.  In package json,
+        {
+            "type": "module",
+            "scripts": {
+                "dev": "vite",
+                "start": "vite"
+            },
+            "dependencies": {
+                "vite": "^6.3.5"
+            },
+            "devDependencies": {
+                "autoprefixer": "^10.4.21",
+                "postcss": "^8.5.4",
+                "tailwindcss": "^4.1.8"
+            }
+        }
+
+5.  npm run dev
