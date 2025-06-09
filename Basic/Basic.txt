@@ -1,0 +1,14 @@
+Tailwind:
+    https://tailwindcss.com/
+
+    Tailwind is a tool that helps you style your website faster by using short ready-made classes
+
+    Shortcut codes to design fast without writing CSS files.
+
+    Example:
+        <div class="bg-blue-100 text-red-500 p-5 rounded-lg">
+            This is a Tailwind card!
+        </div>
+
+
+
